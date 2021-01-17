@@ -17,7 +17,36 @@
 .coder{
     border: solid 2px green;
 }
+a:link {
+  text-decoration: none;
+  
+  
+}
 
+a:visited {
+  text-decoration: none;
+  background-color: yellow;
+}
+
+a:hover {
+  background-color: rgb(124, 0, 128);
+  font-size: 200%;
+  
+ 
+}
+
+a:active {
+  background-color: honeydew;
+}
+body{
+    background-image: url(pictures/walk.jpg);
+}
+.text{
+    font-size: 700%;
+    font-style: oblique;
+    color:whitesmoke;
+    padding-top: 150px;
+}
   </style>
    
 
@@ -25,40 +54,58 @@
 <body>  
 <div class="container-fluid ">
     <div class="row bg-success p-2 ">
-        <div class="col-sm-1 "><img src="pictures/facebook.png " alt="facebook" width="40px" height="30px"> </div>
-        <div class="col-sm-1 "><img src="pictures/twitter.png" alt="twitter" width="40px" height="30px"></div>
-        <div class="col-sm-1  "><img src="pictures/gmail.png" alt="gmail" width="40px" height="30px"></div>
-        <div class="col-sm-1 "><img src="pictures/instagram.jpg" alt="instagram" width="40px" height="30px"></div>
-        <div class="col-sm-8 text-right text-capitalize right">all rights reserved</div>
+        <div class="col-md-1 "><img src="pictures/facebook.png " alt="facebook" width="40px" height="30px"> </div>
+        <div class="col-md-1 "><img src="pictures/twitter.png" alt="twitter" width="40px" height="30px"></div>
+        <div class="col-md-1  "><img src="pictures/gmail.png" alt="gmail" width="40px" height="30px"></div>
+        <div class="col-md-1 "><img src="pictures/instagram.jpg" alt="instagram" width="40px" height="30px"></div>
+        <div class="col-md-8 text-right text-capitalize right">all rights reserved</div>
 
     </div>
     
     <div class="row bg-dark p-4 text-capitalize " >
-        <div class="col-sm-1 text-success coder right">
+        <div class="col-md-1 text-success coder right">
             coder
         </div>
-        <div class="col-sm-1 ">
-        <a href="" class="text-white right">home</a>
+        <div class="col-md-1 ">
+        <a href="" class="text-white right" target="_blank">home</a>
         </div>
         
-        <div class="col-sm-1">
-            <a href=""class="text-white right">books</a> 
+        <div class="col-md-1">
+            <a href=""class="text-white right" target="_blank">books</a> 
 
         </div>
-        <div class="col-sm-1">
-            <a href=""class="text-white right">gallery</a>
+        <div class="col-md-1">
+            <a href=""class="text-white right" target="_blank">gallery</a>
         </div>
-        <div class="col-sm-1">
-            <a href=""class="text-white right">videos</a>
+        <div class="col-md-1">
+            <a href=""class="text-white right" target="_blank">videos</a>
         </div>
-        <div class="col-sm-1">
-            <a href=""class="text-white right">about</a>
+        <div class="col-md-1">
+            <a href=""class="text-white right" target="_blank">about</a>
         </div>
-        <div class="col-sm-1">
-            <a href=""class="text-white right">contact</a>
+        <div class="col-md-1">
+            <a href=""class="text-white right" target="_blank">contact</a>
         </div>
+        <div class="col-md-4 ">
+            <form action="" >
+                <input type="search" placeholder="search" class=" float-right" >
+                
+                </form>
+        </div>
+         <div class=" col-md-1 ">
+                    <form action="">
+                        <button type="submit" class=" float-right"><img src="pictures/search.png" alt="search" width="120px" height="22">
+                        </button>
+                    </form>
+        </div>
+    
     </div>
     
+</div>
+<div class="container-fluid">
+    <div class="text-uppercase text-center text ">
+        hi,i'm deginet
+    </div>
 </div>
 
 </body>
