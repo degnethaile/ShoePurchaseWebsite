@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap personl Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+.right{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+}
+.coder{
+    border: solid 2px green;
+}
+a:link {
+  text-decoration: none;
+  
+  
+}
+
+a:visited {
+  text-decoration: none;
+  background-color: yellow;
+}
+
+a:hover {
+  
+  font-size: 200%;
+  
+ 
+}
+
+a:active {
+  background-color: green;
+}
+
+.text{
+    font-size: 700%;
+    font-style: oblique;
+    color:whitesmoke;
+    padding-top: 150px;
+}
+body{
+    background-color: rgb(168, 80, 22);
+}
+.has{
+    font-size: 800%;
+}
+  </style>
+   
+
+</head>
+<body>  
+<div class="container-fluid ">
+    <div class="row bg-success p-2 ">
+        <div class="col-md-1 "><a href=""><img src="pictures/facebook.png " alt="facebook" width="40px" height="30px"></a> </div>
+        <div class="col-md-1 "><a href=""><img src="pictures/twitter.png" alt="twitter" width="40px" height="30px"></a></div>
+        <div class="col-md-1  "><a href=""><img src="pictures/gmail.png" alt="gmail" width="40px" height="30px"></a></div>
+        <div class="col-md-1 "> <a href=""><img src="pictures/instagram.jpg" alt="instagram" width="40px" height="30px"></a></div>
+        <div class="col-md-8 text-right text-capitalize right">all rights reserved</div>
+
+    </div>
+    
+    <div class="row bg-dark p-4 text-capitalize " >
+        <div class="col-md-1 text-success coder right">
+            coder
+        </div>
+        <div class="col-md-1 ">
+        <a href="bootstrap.html" class="text-white right active" target="_blank">home</a>
+        </div>
+        
+        <div class="col-md-1">
+            <a href="book.html"class="text-white right" target="_blank">books</a> 
+
+        </div>
+        <div class="col-md-1">
+            <a href="gallery.html"class="text-white right" target="_blank">gallery</a>
+        </div>
+        <div class="col-md-1">
+            <a href="video.html"class="text-white right" target="_blank">videos</a>
+        </div>
+        <div class="col-md-1">
+            <a href="about.html"class="text-white right" target="_blank">about</a>
+        </div>
+        <div class="col-md-1">
+            <a href="contact.html"class="text-white right" target="_blank">contact</a>
+        </div>
+        <div class="col-md-4 ">
+            <form action="" >
+                <input type="search" placeholder="search" class=" float-right" >
+                
+                </form>
+        </div>
+         <div class=" col-md-1 ">
+                    <form action="">
+                        <button type="submit" class=" float-right"><img src="pictures/search.png" alt="search" width="120px" height="22">
+                        </button>
+                    </form>
+        </div>
+    
+    </div>
+    
+</div>
+<div class="row">
+<div class="col-md-6 text-center text-white">
+        <h1>
+            Contact Me
+        </h1>
+        <p class="has">
+            -
+        </p>
+        <p>
+            Hey there – thanks for visiting! I’m stoked that you’d like to get in
+    touch with me.
+    However, because  of  my  commitment to spending  the  majority of  my
+
+    time working deeply, and because  of  the volume of  email  I   already
+
+    receive, email isn’t the best way to contact me if you have a question 
+    
+    or    are  reaching out  for  something  that isn’t  personal-related
+        </p>
+        <p>
+            Here are a couple of better options 
+        </p>
+        <p>
+            <div class="container">
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                  <img src="pictures/call.png" alt="call" width="30px" height="30px">
+                </button>
+              
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        +251912673978
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </p>
+        <p>
+            want to say hi?<a href="http://www.twitter.com">Hit me up on twitter</a>
+        </p>
+    
+    </div>
+    
+    <div class="col-md-6 text-capitalize  pt-5">
+    <div>
+        <form action="">
+            <div>
+                <label for="Name"> Name</label>
+            </div>
+            <div>
+                <input type="text" id="fname" name="Fname" >
+
+            </div>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <div>
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" >
+            </div>
+            
+        </form>
+        </div>
+        <div>
+            <form action="">
+                <label for="message">You message</label>
+                <div>
+                    <textarea name="messages" id="message" cols="50" rows="10"  > write something interesting here</textarea>
+
+                </div>
+            </form>
+        </div>
+        <div>
+            <form action="">
+                <button type="submit" id="submit" >
+                   send
+                </button>
+            </form>
+        </div>
+    </div>
+      </div>
+</div>
+
+
+
+</body>
+</html>

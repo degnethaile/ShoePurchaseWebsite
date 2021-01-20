@@ -37,19 +37,21 @@ a:hover {
 a:active {
   background-color: honeydew;
 }
-
+body{
+    background-image: url(pictures/walk.jpg);
+}
   </style>
    
 
 </head>
 <body>  
 <div class="container-fluid ">
-    <div class="row bg-success p-2 ">
-        <div class="col-md-1 "><a href=""><img src="pictures/facebook.png " alt="facebook" width="40px" height="30px"></a> </div>
-        <div class="col-md-1 "><a href=""><img src="pictures/twitter.png" alt="twitter" width="40px" height="30px"></a></div>
-        <div class="col-md-1  "><a href=""><img src="pictures/gmail.png" alt="gmail" width="40px" height="30px"></a></div>
-        <div class="col-md-1 "> <a href=""><img src="pictures/instagram.jpg" alt="instagram" width="40px" height="30px"></a></div>
-        <div class="col-md-8 text-right text-capitalize right">all rights reserved</div>
+  <div class="row bg-success p-2 ">
+    <div class="col-md-1 "><a href=""><img src="pictures/facebook.png " alt="facebook" width="40px" height="30px"></a> </div>
+    <div class="col-md-1 "><a href=""><img src="pictures/twitter.png" alt="twitter" width="40px" height="30px"></a></div>
+    <div class="col-md-1  "><a href=""><img src="pictures/gmail.png" alt="gmail" width="40px" height="30px"></a></div>
+    <div class="col-md-1 "> <a href=""><img src="pictures/instagram.jpg" alt="instagram" width="40px" height="30px"></a></div>
+    <div class="col-md-8 text-right text-capitalize right">all rights reserved</div>
 
     </div>
     
@@ -92,34 +94,50 @@ a:active {
     
     </div>
     
-</div><div class="bg-danger text-white text-center">
-    <p>
-      <h1>
-        My fovirites youtube videos
-      </h1>  
-
-    </p>
-    <p>
-        <h2>
-            Everyday, I watch one new video on technology,self development 
-        and entertainment.
-        </h2>
-        
-    </p>
-    <p>
-        <h3>
-            here are some of my favorites
-        </h3>
-       
-    </p>
 </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
-<iframe width="665" height="315" src="https://www.youtube.com/embed/n9tQMcgbcBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="665" height="315" src="https://www.youtube.com/embed/A9Lhhsd9EB8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="665" height="315" src="https://www.youtube.com/embed/5PfvJp6EKX8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="665" height="315" src="https://www.youtube.com/embed/QOmzboo4lTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="665" height="315" src="https://www.youtube.com/embed/27fQl4oRlBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="665" height="315" src="https://www.youtube.com/embed/B1_02k7ltm4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      <li data-target="#demo" data-slide-to="5"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pictures/tsige.jpg" alt="tsige" width="500" height="700">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/dilamo.jpg" alt="dilamo" width="500" height="700">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/feven.jpg" alt="feven" width="500" height="700">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/friends.jpg" alt="friends" width="500" height="700">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/dege.jpg" alt="friends" width="500" height="700">
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/mule.jpg" alt="friends" width="500" height="700">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
 </div>
 
 </body>
